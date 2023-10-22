@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Ranking</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="ranking-container">
+        <header>
+            <h2>실시간 검색어</h2>
+            <div class="sub-header">
+                <div class="dropdown">
+                    <span class="dropdown-toggle">전체랭킹보기 <span class="arrow">▶</span></span>
+                    <div class="dropdown-menu">
+                        <a href="#" data-country="대한민국">대한민국</a>
+                        <a href="#" data-country="미국">미국</a>
+                        <a href="#" data-country="캐나다">캐나다</a>
+                        <a href="#" data-country="일본">일본</a> <!-- Added this line -->
+                        <a href="#" data-country="대만">대만</a> <!-- Added this line -->
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="columns">
+            <section class="ranking-section" data-rank-range="1~10위">
+                <span class="section-title">1~10위</span>
+                <ol>
+                    <!-- Initial list here, will be replaced by JS -->
+                </ol>
+            </section>
+            <section class="ranking-section" data-rank-range="11~20위">
+                <span class="section-title">11~20위</span>
+                <ol start="11">
+                    <!-- Initial list here, will be replaced by JS -->
+                </ol>
+            </section>
+        </div>
+        <footer>
+            <span class="timestamp">Loading...</span>
+        </footer>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
