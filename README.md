@@ -1,5 +1,5 @@
 # Real Time Search Engine
-To Do: Backend still under construction. 
+To Do: backend still under construction. 
 
 
 **Timestamps**: 
