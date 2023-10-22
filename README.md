@@ -1,6 +1,6 @@
 # Real Time Search Engine
-Backend still under construction. 
-Replacement of Naver Search Engine.
+To Do: Backend still under construction. 
+
 
 **Timestamps**: 
 1. Frontend (2023-10-21)
