@@ -2,7 +2,7 @@
 Backend still under construction. 
 Replacement of Naver Search Engine.
 
-Timestamps: 
+**Timestamps**: 
 1. Frontend (2023-10-21)
 2. Backend (2023-10-22 ~ 2023-10-26)
 3. Database (2023-10-27 ~ 2023-10-29)
